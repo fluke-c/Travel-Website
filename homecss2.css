@@ -1,0 +1,202 @@
+*{padding: 0;
+margin: 0;}
+
+.header {height:100%;
+background-image:url("fiji beach.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+padding-top:10px;
+text-align:center;
+color:black;
+}
+
+.header img {width:155px;
+height:86px;
+float:left;
+margin:5px;
+top:1px;}
+
+.home {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.home{background-color: #FFFFFF /*white*/}
+.home:hover{background-color:#AFEEEE}
+
+.aboutus {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.aboutus{background-color: #FFFFFF /*white*/}
+.aboutus:hover{background-color:#AFEEEE}
+
+.contact {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.contact{background-color: #FFFFFF /*white*/}
+.contact:hover{background-color:#AFEEEE}
+
+/* Dropdown Button */
+.dropbtn {width:100px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius:0;
+  font-size: 16px;
+  border: black;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #AFEEEE;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #AFEEEE;}
+
+
+.header h2 {
+	padding-top:60px;
+	padding-bottom:0;
+	font-size:55px;
+}
+
+.booking-form-box{
+	background: transparent;
+	max-width: 350px;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 1.5% auto 0;
+}
+
+.radio-btn {
+	margin: 0 5px;
+}
+
+.radio-btn .btn {
+	margin: 20px 10px 20px 0;
+	box-shadow: none;
+}
+
+.radio-btn .btn::after {
+	content: '';
+	height: 15px;
+	width: 15px;
+	top: -2px;
+	left: -1px;
+	background-color: #fff;
+	position: relative;
+	display: inline-block;
+	border: 3px solid #fff;
+	visibility: visible;
+	border-radius: 50%;
+}
+
+.radio-btn .btn:checked::after {
+	content: '';
+	background-color: #000;
+	transition: 0.2s;
+}
+
+.radio-btn span {
+	color: #000000;
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+.booking-form {
+	padding: 0 20px 20px;
+}
+
+.booking-form label {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #000000;
+}
+
+input::placeholder {
+	color: #000000!important;
+}
+
+.input-grp {
+	width: 151px;
+	display: inline-block;
+	border: #000; 
+}
+
+.form-control {
+	font-size: 12px!important;
+	border-radius: 0 solid #000!important;
+	color: #000000!important;
+	background: transparent!important;
+	box-shadow: none!important;
+}
+
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{-webkit-appearance: none;
+	margin: 0;}
+
+.select-date::-webkit-calendar-picker-indicator
+{background: transparent!important;}
+
+.custom-select {
+	color: #000000!important;
+	font-size: 12px!important;
+	border: 1px solid #000!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	background: transparent!important;
+}
+
+.custom-select option {
+	color: #333;
+}
+
+.flight {
+	padding: 0 20px 20px;
+	width: 100%;
+	padding: 6px 0!important;
+	font-size: 12px!important;
+	border: 1px solid #2c333a!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	color: #000000!important;
+}
+
+.flight:hover {
+	background: #fff!important;
+	color: #000!important;
+	transition: 0.1s;
+}
