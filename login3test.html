@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="UTF-8">
+		<link rel= "stylesheet" href="login3testcss.css">
+		<meta name="viewpoint" content="width=device-width, initil-scale-scale=1.0">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Exo">
+		<link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	</head>
+	
+		<body>
+			<section class="header">
+			<div class="container"></div>
+				<img src="SKYs UR Limit.jpg" WIDTH="151" HEIGHT="86"></div>
+				
+				<div class="dropdown" style="float:right;">
+					<button class="dropbtn" style="width:175px; height:40px">Account & Bookings</button>
+					<div class="dropdown-content" style="width:175px">
+						<a href="login2.html">Login</a>
+						<a href="register.html">Register</a>
+						<a href="#">View your bookings</a>
+					</div>	
+				</div>
+				
+				<a href="home2.html"><button type="button" class="home">Home</button></a>
+			</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">About Us</button>
+					<div class="dropdown-content">
+						<a href="AboutUs.html">About Us</a>
+						<a href="#">Meet the Team</a>
+					</div>	
+				</div>
+				<div class="dropdown">
+					<a href="services.html"><button class="dropbtn">Services</button></a>
+					<div class="dropdown-content">
+						<a href="#">Hotels</a>
+						<a href="#">Flights</a>
+						<a href="#">Parking</a>
+						<a href="#">Car Hires</a>
+						<a href="#">Villas</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="gallery.html"><button class="dropbtn">Gallery</button></a>
+					<div class="dropdown-content">
+						<a href="#">Asia</a>
+						<a href="#">Australasia</a>
+					</div>	
+				</div>
+				<div class="dropdown">
+					<a href="traveltips.html"><button class="dropbtn">Travel Tips</button></a>
+					<div class="dropdown-content">
+						<a href="#">Tips for Asia</a>
+						<a href="#">Tips for Australasia</a>
+					</div>	
+				</div>
+				<a href="contact.html"><button type="button" class="contact">Contact</button></a>
+			</div>
+		</body>
+	
+	<main oncontextmenu="return false">
+	
+	<div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+		
+			<div>Please<span> Login</span></div>
+		</div>
+		<br>
+		<form name="login">
+		<div class="login">
+			<input type="text" placeholder="username" name="userid"><br>
+			<input type="password" placeholder="password" name="pswrd"><br>
+			<input type="button" onclick="check(this.form)" value="login"/>
+		</div>
+		</form>
+		
+		<script language="javascript">
+		function check(form)
+			{
+				if(form.userid.value == "fluke" && form.pswrd.value == "123")
+					{
+						window.open('https://www.youtube.com/watch?v=RxAtuMu_ph4')
+					}
+				else
+				{
+					alert("The username and password you entered don't match")
+				}
+			}
+		</script>		
+	</main>
+</html>
+
+	
+		

@@ -1,0 +1,278 @@
+<DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<title>Book a new trip</title>
+		<link rel= "stylesheet" href="shoppingCartTestCss.css">
+		<meta name="viewpoint" content="width=device-width, initil-scale-scale=1.0">
+		<link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<!--<script src="shoppingCartTestJs.js"></script>-->
+	</head>
+	
+	<body>
+		<section class="header">
+		<div class="container"></div>
+			<img src="logo4.gif" WIDTH="151" HEIGHT="86"></div>
+				
+			<div class="dropdown" style="float:right;">
+				<a href="login2.html"><button class="dropbtn" style="width:175px; height:40px">Login</button></a>
+				<div class="dropdown-content" style="width:175px">
+					<a href="login2.html">Account</a>
+				</div>	
+			</div>
+						
+			<a href="home2.html"><button type="button" class="home">Home</button></a>
+		</div>
+
+			<a href="meetTheTeam.html"><button type="button" class="aboutus">About Us</button></a>
+
+			<div class="dropdown">
+				<a href="services.html"><button class="dropbtn">Services</button></a>
+				<div class="dropdown-content">
+					<a href="#">Holidays</a>
+					<a href="#">Hotels</a>
+					<a href="#">Flights</a>
+					<a href="#">Parking</a>
+					<a href="#">Car Hires</a>
+					<a href="#">Villas</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a href="gallery.html"><button class="dropbtn">Gallery</button></a>
+				<div class="dropdown-content">
+					<a href="#">Asia</a>
+					<a href="#">Australasia</a>
+				</div>	
+			</div>
+			<div class="dropdown">
+				<a href="traveltips.html"><button class="dropbtn">Travel Tips</button></a>
+				<div class="dropdown-content">
+					<a href="#">Tips for Asia</a>
+					<a href="#">Tips for Australasia</a>
+				</div>	
+			</div>
+			<a href="contact.html"><button type="button" class="contact">Contact</button></a>
+		</div>
+	</body>
+
+	<main>
+		<!-- Nav -->
+		<nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+			<div class="row">
+				<div class="col">
+				  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+			</div>
+		</nav>
+
+
+		<!-- Main -->
+		<div class="container">
+			<div class="row">
+			  <div class="col">
+				<div class="card" style="width:10rem;">
+		  <img class="card-img-top" src="https://cdn4.iconfinder.com/data/icons/world-flags-6/900/australia_australian_aussie_national_country_flag-512.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Australia</h4>
+			<p class="card-text">£824 p/p</p>
+			<a href="#" data-name="Australia" data-price="824" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://fotw.info/images/c/ck_small.gif" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Cook Islands</h4>
+			<p class="card-text">£798 p/p</p>
+			<a href="#" data-name="Cook Islands" data-price="798" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://cdn.countryflags.com/thumbs/fiji/flag-800.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Fiji</h4>
+			<p class="card-text">£798 p/p</p>
+			<a href="#" data-name="Fiji" data-price="796" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/1200px-Flag_of_French_Polynesia.svg.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">French Polynesia</h4>
+			<p class="card-text">£725 p/p</p>
+			<a href="#" data-name="French Polynesia" data-price="725" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/2000px-Flag_of_Kiribati.svg.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Kiribati</h4>
+			<p class="card-text">£798 p/p</p>
+			<a href="#" data-name="Kiribati" data-price="798" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_FLNKS.svg/1200px-Flag_of_FLNKS.svg.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">New Caledonia</h4>
+			<p class="card-text">£698 p/p</p>
+			<a href="#" data-name="New Caledonia" data-price="698" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/2000px-Flag_of_New_Zealand.svg.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">New Zealand</h4>
+			<p class="card-text">£823 p/p</p>
+			<a href="#" data-name="New Zealand" data-price="823" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/2000px-Flag_of_Papua_New_Guinea.svg.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Papua New Guinea</h4>
+			<p class="card-text">£724 p/p</p>
+			<a href="#" data-name="Papua New Guinea" data-price="724" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Samoa</h4>
+			<p class="card-text">£713 p/p</p>
+			<a href="#" data-name="Samoa" data-price="713" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Tonga</h4>
+			<p class="card-text">£711 p/p</p>
+			<a href="#" data-name="Tonga" data-price="711" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Vanuatu_%28official%29.svg/1200px-Flag_of_Vanuatu_%28official%29.svg.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Vanuatu</h4>
+			<p class="card-text">£765 p/p</p>
+			<a href="#" data-name="Vanuatu" data-price="765" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://www.publicdomainpictures.net/pictures/40000/nahled/suitcase-clipart.jpg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">15kg bag</h4>
+			<p class="card-text">££25 p/p</p>
+			<a href="#" data-name="15kg bag" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://www.pinclipart.com/picdir/middle/123-1234319_suitcase-baggage-travel-luggage-cartoon-clipart.png" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">30kg bag</h4>
+			<p class="card-text">£30 p/p</p>
+			<a href="#" data-name="30kg bag" data-price="30" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://i.pinimg.com/originals/7e/0f/a8/7e0fa8e40440ec3409ee08eb747126cc.jpg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Parking</h4>
+			<p class="card-text">£15 p/car, p/day</p>
+			<a href="#" data-name="Parking" data-price="15" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://www.freespirittravelinsurance.com/wp-content/uploads/2017/05/suitcase-image.jpg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Insurance: 7 days</h4>
+			<p class="card-text">£25 p/p</p>
+			<a href="#" data-name="Insurance for 7 days" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://www.freespirittravelinsurance.com/wp-content/uploads/2017/05/suitcase-image.jpg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Insurance: 14 days</h4>
+			<p class="card-text">£50 p/p</p>
+			<a href="#" data-name="Insurance for 14 days" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://www.freespirittravelinsurance.com/wp-content/uploads/2017/05/suitcase-image.jpg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Insurance: 14+ days</h4>
+			<p class="card-text">£75 p/p</p>
+			<a href="#" data-name="Insurance for 14+ days" data-price="75" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			  <div class="col">
+				<div class="card" style="width: 10rem;">
+		  <img class="card-img-top" src="https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg" alt="Card image cap">
+		  <div class="card-block">
+			<h4 class="card-title">Number of nights</h4>
+			<p class="card-text">dropdown</p>
+			<a href="#" data-name="Number of nights" data-price="" class="add-to-cart btn btn-primary">Add to cart</a>
+		  </div>
+		</div>
+			  </div>
+			</div>
+		</div>
+
+		  
+		 <!-- Modal -->
+		<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<table class="show-cart table">
+				  
+				</table>
+				<div>Total price: $<span class="total-cart"></span></div>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Order now</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</main>
+</html>

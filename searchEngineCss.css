@@ -1,0 +1,96 @@
+element.style {
+}
+
+* {
+	padding:0;
+	border:0;
+	margin:0;
+	outline:none;
+	font-size:100%;
+	vertical-align: baseline;
+	list-style-type: none;
+}
+
+body, h1, h2, h3, h4, h5, html {
+    text-shadow: none;
+    text-rendering: optimizeLegibility!important;
+}
+
+body, html {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: tui-light,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4c4c4c;
+}
+
+
+@media (max-width: 579px)
+.SearchPanel__searchPanelContainer {
+    height: 100%;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.SearchPanel__searchPanelContainer {
+    background: #e2f3fe;
+    padding: 16px;
+    padding: 1rem;
+    height: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style-type: none;
+    -webkit-text-size-adjust: 100%;
+}
+
+.component, .content-width, .contentWidth, .notification, .WCMS_component {
+    margin: 0 auto;
+    min-width: 283px;
+    max-width: 1048px;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style-type: none;
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 579px)
+.SearchPanel__searchPanelContainer .SearchPanel__searchPanelWrapper .SearchPanel__airports:nth-child(1n) {
+    margin-right: 0;
+    margin-left: 0;
+}
+@media (max-width: 579px)
+.SearchPanel__searchPanelContainer .SearchPanel__searchPanelWrapper .SearchPanel__airports {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-preferred-size: 99.9%;
+    flex-basis: 99.9%;
+    max-width: 99.9%;
+    width: 99.9%;
+    margin-bottom: .5rem;
+}
+
+.inputs__textInputWithIcon {
+    font-family: tui-light,Arial,sans-serif;
+}

@@ -1,0 +1,89 @@
+<DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login</title>
+		<link rel= "stylesheet" href="logincss2.css">
+		<meta name="viewpoint" content="width=device-width, initil-scale-scale=1.0">
+		<link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	</head>
+	
+		<body>
+			<section class="header">
+			<div class="container"></div>
+				<img src="logo4.gif" WIDTH="151" HEIGHT="86"></div>
+				
+				<div class="dropdown" style="float:right;">
+					<a href="login2.html"><button class="dropbtn" style="width:175px; height:40px">Login</button></a>
+					<div class="dropdown-content" style="width:175px">
+						<a href="login2.html">Account</a>
+					</div>	
+				</div>
+				
+				<a href="home2.html"><button type="button" class="home">Home</button></a>
+				<a href="meetTheTeam.html"><button type="button" class="aboutus">About Us</button></a>
+
+				<div class="dropdown">
+					<a href="services.html"><button class="dropbtn">Services</button></a>
+					<div class="dropdown-content">
+						<a href="#">Hotels</a>
+						<a href="#">Flights</a>
+						<a href="#">Parking</a>
+						<a href="#">Car Hires</a>
+						<a href="#">Villas</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="gallery.html"><button class="dropbtn">Gallery</button></a>
+					<div class="dropdown-content">
+						<a href="#">Asia</a>
+						<a href="#">Australasia</a>
+					</div>	
+				</div>
+				<div class="dropdown">
+					<a href="traveltips.html"><button class="dropbtn">Travel Tips</button></a>
+					<div class="dropdown-content">
+						<a href="#">Tips for Asia</a>
+						<a href="#">Tips for Australasia</a>
+					</div>	
+				</div>
+				<a href="contact.html"><button type="button" class="contact">Contact</button></a>
+				
+				<h2>Please Login</h2>
+				<p><b>Current User ID:</b> fluke</p>
+				<p><b>Current Password:</b> 123</p>
+				<form action="/action_page.php" method="post">
+
+				<div class="container">
+					<label for="userid"><b>User ID</b></label>
+					<input type="text" placeholder="Enter User ID" name="userid" required>
+
+					<label for="pswrd"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="pswrd" required>
+						
+					<button type="button" onclick="check(this.form)" class="loginbtn">Login</button>
+				</div>
+
+				<div class="container" style="background-color:#f1f1f1">
+					<button type="button" class="cancelbtn">Cancel</button>
+					<span class="pswrd">Forgot <a href="#">password?</a></span>
+				</div>
+				</form>
+							
+				<script language="javascript">
+					function check(form)
+						{
+							if(form.userid.value == "fluke" && form.pswrd.value == "123")
+								{
+									window.open(href="account.html")
+								}
+							else
+							{
+								alert("The username and password you entered don't match")
+							}
+						}				  
+				</script>	
+			</div>
+		</section>
+	</body>
+</html>

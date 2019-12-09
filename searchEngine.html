@@ -1,0 +1,150 @@
+<DOCTYPE HTML>
+<html>
+	<head>
+		<title>Search Engine</title>
+		<link rel= "stylesheet" href=".css">
+		<meta name="viewpoint" content="width=device-width, initil-scale-scale=1.0">
+		<link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	</head>
+	
+		<div id="searchPanel_component" aria-label="search panel">
+			<div aria-label="search panel container">
+				<div class="SearchPanel_searchPanelContainer ">
+					<div class="contentWidth">
+					<!--::before-->
+						<div class="SearchPanel_searchPanelWrapper">
+							<div class="SearchPanel_airports SearchPanel__field">
+								<div class="SelectAirports_airportInputWrapper">
+									<div class="SelectAirports_airportLabelWrapper">
+										<label aria-label="input label"for>Departure Airport</label>
+									</div>
+									<div aria-label="input text container" class="inputs__textInputWithIcon">
+										<div class>
+											<input name readonly id aria-label="text input" placeholder="London City + 5 More" shadow class="SelectAirports_pointer" value data-di-id="di-id-13639309-fc8be1ae">
+											<span class="inputs__children">
+												<span class>
+													<svg width="16px" height="16px" class="" viewBox="0 0 1024 1024" data-di-rand="1575032546256">
+														<path d="M45.227 947.2c-23.040 0-41.813-18.773-41.813-41.813s18.773-41.813 41.813-41.813h931.84c23.040 0 41.813 18.773 41.813 41.813s-18.773 41.813-41.813 41.813h-931.84zM689.493 351.573l180.053-48.64c66.56-17.92 133.973 21.333 151.893 87.893s-21.333 134.827-87.893 151.893l-709.973 191.147c-64.853 17.067-131.413-19.627-151.040-83.627l-68.267-139.093c-15.36-30.72 11.947-65.707 45.227-58.88l149.333 30.72 116.053-30.72-123.733-296.107c-9.387-23.040 3.413-49.493 27.307-56.32l83.627-22.187c12.8-3.413 25.6-0.853 35.84 6.827l351.573 267.093zM148.48 616.96c0.853 2.56 2.56 5.12 2.56 7.68 5.973 22.187 29.013 34.987 50.347 29.013l710.827-190.293c22.187-5.973 34.987-28.16 29.013-50.347s-29.013-34.987-50.347-29.013l-199.68 52.907c-12.8 3.413-25.6 0.853-35.84-6.827l-351.573-267.093-17.92 5.12 123.733 296.107c9.387 23.040-3.413 49.493-27.307 56.32l-171.52 46.080c-5.973 1.707-12.8 1.707-18.773 0.853l-75.947-15.36 32.427 64.853z"></path>
+													</svg>
+												</span>
+											</span>
+											<span aria-label="input" class="inputs__errorMessage"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="SearchPanel__destinations SearchPanel__field undefined">
+								<div aria-label="input text container" class="inputs__textInputWithIcon">
+									<label aria-label="select destinations" for>Destination</label>
+									<div class>
+										<input name id aria-label="selected destinations" plcaeholder="Any" shadow="underfined" class="" data-values="[]" value data-di-id="di-id-67e18f78-22891864">
+										<span class="inputs_children">
+											<span>
+												<svg width="16px" height="16px" class="SearchPanel__iconClass" viewBox="0 0 1024 1024" data-di-rand="1575032546256">
+													<path d="M530.773 888.32c38.4-52.907 77.653-108.373 113.493-163.84 23.893-37.547 46.080-73.387 65.707-108.373 60.587-105.813 94.72-191.147 94.72-242.347 0-160.427-130.56-290.133-292.693-290.133s-292.693 129.707-292.693 290.133c0 51.2 34.133 136.533 94.72 242.347 19.627 34.133 41.813 70.827 65.707 108.373 35.84 55.467 75.093 111.787 113.493 163.84 6.827 8.533 12.8 17.067 18.773 24.747 5.973-7.68 11.947-16.213 18.773-24.747zM135.68 373.76c0-206.507 168.96-373.76 376.32-373.76s376.32 167.253 376.32 373.76c0 69.973-38.4 165.547-105.813 283.307-20.48 35.84-43.52 73.387-68.267 111.787-36.693 57.173-76.8 114.347-116.053 168.107-13.653 18.773-26.453 35.84-38.4 51.2-4.267 5.12-7.68 10.24-11.093 13.653-1.707 2.56-3.413 4.267-4.267 5.12-17.067 21.333-48.64 21.333-65.707 0-0.853-0.853-1.707-2.56-4.267-5.12-3.413-4.267-6.827-8.533-11.093-13.653-11.947-15.36-24.747-32.427-38.4-51.2-39.253-53.76-79.36-110.933-116.053-168.107-24.747-38.4-47.787-75.947-68.267-111.787-66.56-117.76-104.96-213.333-104.96-283.307zM512 428.373c-46.080 0-83.627-37.547-83.627-83.627s37.547-83.627 83.627-83.627c46.080 0 83.627 37.547 83.627 83.627s-37.547 83.627-83.627 83.627z"></path>
+												</svg>
+												<span class="SearchPanel__list">List</span>
+											</span>
+										</span>
+										<span aria-label="input" class="inputs__errorMessage"></span>
+									</div>
+								</div>
+							</div>
+							<div class="SearchPanel__date SearchPanel__field undefined">
+								<div aria-label="Departure Date">
+									<div aria-label="input text container" class="inputs__textInputWithIcon">
+										<label aria-label="select date" for>Departure Date</label>
+										<div class>
+											<input name readonly id aria-label="select date" placeholder="Select a date" shadow="underfined" class="" value="05 Jan 2020" data-di-id="di-id-9ad38a76-edf314a4">
+											
+											<span class="inputs_children">
+												<span>
+													<svg width="16px" height="16px" class="SearchPanel_iconClass" viewBox="0 0 1024 1024" data-di-rand="1575032546257">
+														<path d="M209.067 459.947h83.627c23.040 0 41.813 18.773 41.813 41.813v83.627c0 23.040-18.773 41.813-41.813 41.813h-83.627c-23.040 0-41.813-18.773-41.813-41.813v-83.627c0-23.040 18.773-41.813 41.813-41.813zM83.627 396.8v543.573h856.747v-543.573h-856.747zM470.187 104.107v-62.293c0-23.040 18.773-41.813 41.813-41.813s41.813 18.773 41.813 41.813v62.293h177.493v-62.293c0-23.040 18.773-41.813 41.813-41.813s41.813 18.773 41.813 41.813v62.293h167.253c23.040 0 41.813 18.773 41.813 41.813v836.267c0 23.040-18.773 41.813-41.813 41.813h-940.373c-23.040 0-41.813-18.773-41.813-41.813v-836.267c0-23.040 18.773-41.813 41.813-41.813h167.253v-62.293c0-23.040 18.773-41.813 41.813-41.813s41.813 18.773 41.813 41.813v62.293h177.493zM83.627 313.173h856.747v-125.44h-125.44v41.813c0 23.040-18.773 41.813-41.813 41.813s-41.813-18.773-41.813-41.813v-41.813h-177.493v41.813c0 23.040-18.773 41.813-41.813 41.813s-41.813-18.773-41.813-41.813v-41.813h-177.493v41.813c0 23.040-18.773 41.813-41.813 41.813s-41.813-18.773-41.813-41.813v-41.813h-125.44v125.44z"></path>
+													</svg>
+												<span calss="SearchPanel__list">List></span>
+											</span>
+											<span aria-label="input" class="inputs__errorMessage"></span>
+										</div>
+									</div>
+								</div>
+								<div class="SearchPanel__date SearchPanel__field undefined">
+									<div aria-label="Departure Date">
+										<div aria-label="input text container" class="inputs__textInputWithIcon">
+											<label aria-label="select date" for>Departure Date</label>
+											<div class>
+												<input name readonly id aria-label="select date" placeholder="Select a date" shadow="underfined" class="" value="05 Jan 2020" data-di-id="di-id-9ad38a76-edf314a4">
+												<span class="inputs__children">
+													<svg width="16px" height="16px" class="SearchPanel_iconClass" viewBox="0 0 1024 1024" data-di-rand="1575032546257">
+														<path d="M209.067 459.947h83.627c23.040 0 41.813 18.773 41.813 41.813v83.627c0 23.040-18.773 41.813-41.813 41.813h-83.627c-23.040 0-41.813-18.773-41.813-41.813v-83.627c0-23.040 18.773-41.813 41.813-41.813zM83.627 396.8v543.573h856.747v-543.573h-856.747zM470.187 104.107v-62.293c0-23.040 18.773-41.813 41.813-41.813s41.813 18.773 41.813 41.813v62.293h177.493v-62.293c0-23.040 18.773-41.813 41.813-41.813s41.813 18.773 41.813 41.813v62.293h167.253c23.040 0 41.813 18.773 41.813 41.813v836.267c0 23.040-18.773 41.813-41.813 41.813h-940.373c-23.040 0-41.813-18.773-41.813-41.813v-836.267c0-23.040 18.773-41.813 41.813-41.813h167.253v-62.293c0-23.040 18.773-41.813 41.813-41.813s41.813 18.773 41.813 41.813v62.293h177.493zM83.627 313.173h856.747v-125.44h-125.44v41.813c0 23.040-18.773 41.813-41.813 41.813s-41.813-18.773-41.813-41.813v-41.813h-177.493v41.813c0 23.040-18.773 41.813-41.813 41.813s-41.813-18.773-41.813-41.813v-41.813h-177.493v41.813c0 23.040-18.773 41.813-41.813 41.813s-41.813-18.773-41.813-41.813v-41.813h-125.44v125.44z"></path>
+													</svg>
+												</span>
+												<span aria-label="input" class="inputs__errorMessage"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="SearchPanel__duration SearchPanel__field underfined" aria-label="select duration">
+									<div arialabel class="inputs__selectlist">
+										<label class>Duration</label>
+										<div class="inputs_select SearchPanel_iconClass">
+											<span class="inputs_selectText">7 nights></span>
+											<span class="inputs_arrowIcon">
+												<svg width="16px" height="16px" class ViewBox="0 0 1024 1024" data-di-rand="1575032546257">
+													<path d="M512 604.19l-272.498-267.632c-15.929-15.644-40.96-15.644-56.889 0s-15.929 40.229 0 55.873l300.942 295.568c15.929 15.644 40.96 15.644 56.889 0l300.942-296.127c15.929-15.644 15.929-40.229 0-55.873s-40.96-15.644-56.889 0l-272.498 268.19z"></path>
+												</svg>
+											</span>
+											<select aria-label="Select" data-di-id="di-id-a210bb41-579c8350">
+												<option aria-label="option" value="3115">3 nights</option>
+												<option aria-label="option" value="4115">4 nights</option>
+												<option aria-label="option" value="5115">5 nights</option>
+												<option aria-label="option" value="5115">6 nights</option>
+												<option aria-label="option" value="5115">7 nights</option>
+												<option aria-label="option" value="5115">8 nights</option>
+												<option aria-label="option" value="5115">9 nights</option>
+												<option aria-label="option" value="5115">10 nights</option>
+												<option aria-label="option" value="5115">11 nights</option>
+												<option aria-label="option" value="5115">14 nights</option>
+												<option aria-label="option" value="5115">More than 14 nights</option>
+												<option aria-label="option" value="1245" disabled="">Day Trip</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div aria-label="rooms and guest">
+									<div aria-label="input text container" class="inputs__textInputWithIcon">
+										<label aria-label="rooms and guests" for>Rooms & Guests</label>
+										<div class>
+											<input name readonly id aria-label="rooms and guests" placeholder="2 Adults 0 Children" shadow class="" value="1 Adult 2 Children" data-di-id="di-id-4e2855ae-3ada3225">
+											<span class="input__children">
+												<svg width="16px" height="16px" class="SearchPanel__iconClass" viewBox="0 0 1024 1024" data-di-rand="1575032546258">
+													<path d="M408.747 436.053c16.213-11.093 36.693-21.333 63.147-31.573 5.973-2.56 21.333-8.533 34.133-12.8-45.227-84.48-61.44-226.133-22.187-291.84 36.693-62.293 104.107-99.84 177.493-99.84 74.24 0 140.8 37.547 178.347 99.84 43.52 73.387 36.693 197.973-12.8 296.96 7.68 5.973 15.36 12.8 23.040 18.773 25.6 20.48 43.52 34.987 46.080 36.693 72.533 44.373 111.787 88.747 127.147 156.16 0.853 2.56 0.853 5.973 0.853 8.533v366.080c0 23.040-18.773 40.96-40.96 40.96h-942.080c-23.040 0-40.96-18.773-40.96-40.96v-361.813c0-3.413 0-5.973 0.853-8.533 11.947-52.053 44.373-96.427 92.16-125.44 10.24-6.827 19.627-10.24 39.253-17.92 3.413-1.707 6.827-2.56 11.947-4.267-0.853 0 1.707-0.853 4.267-1.707-36.693-65.707-51.2-163.84-21.333-213.333 28.16-46.933 78.507-75.093 133.12-75.093 55.467 0 105.813 28.16 133.973 74.24 29.013 47.787 25.6 129.707-0.853 198.827 4.267-4.267 10.24-7.68 15.36-11.947zM418.987 621.227c0-28.16-9.387-46.933-27.307-59.733-5.12-4.267-11.093-7.68-17.92-10.24-2.56-0.853-5.12-1.707-7.68-3.413 0 0-5.973-1.707-6.827-2.56-12.8-5.12-23.893-12.8-34.987-22.187-10.24-8.533-17.92-17.067-22.187-23.893-11.093-12.8-11.947-32.427-2.56-46.933 32.427-50.347 41.813-130.56 23.893-160.427-12.8-22.187-36.693-34.987-63.147-34.987s-49.493 12.8-63.147 34.987c-15.36 25.6 7.68 122.88 39.253 154.453 11.093 11.093 15.36 26.453 10.24 41.813-5.12 17.067-17.067 28.16-33.28 36.693-8.533 5.12-17.92 8.533-30.72 13.653-1.707 0.853-3.413 1.707-5.973 2.56s-4.267 1.707-5.973 1.707c-4.267 1.707-6.827 2.56-9.387 3.413-15.36 5.973-21.333 8.533-26.453 11.947-27.307 17.067-46.933 40.96-53.76 69.12v315.733h337.067l0.853-321.707zM448.853 505.173c0 2.56-0.853 5.12-0.853 5.12l0.853-0.853c0-1.707 0-2.56 0-4.267zM500.907 621.227v320.853h441.173v-320.853c-10.24-39.253-34.987-67.413-88.747-99.84-7.68-5.12-25.6-18.773-53.76-41.813-0.853-0.853-0.853-0.853-1.707-1.707-11.093-9.387-23.040-18.773-34.133-28.16-4.267-3.413-7.68-6.827-11.093-9.387-1.707-1.707-3.413-2.56-4.267-3.413-16.213-13.653-19.627-36.693-8.533-53.76 49.493-77.653 61.44-190.293 29.867-241.493-22.187-37.547-62.293-59.733-108.373-59.733-45.227 0-85.333 22.187-107.52 59.733-27.307 45.227-0.853 192.853 40.96 234.667 11.093 11.093 14.507 26.453 10.24 40.96-6.827 22.187-18.773 29.867-50.347 42.667-8.533 3.413-45.227 17.067-52.907 20.48-21.333 8.533-36.693 15.36-46.933 23.040-0.853 0.853-1.707 1.707-3.413 2.56 31.573 27.307 49.493 65.707 49.493 115.2zM453.12 506.027v0c0-0.853 0 0 0 0zM368.64 497.493c5.973-9.387 11.947-19.627 17.067-29.867-1.707-0.853-3.413-2.56-5.12-3.413-6.827 10.24-11.947 20.48-11.947 33.28v0z"></path>
+												</svg>
+											</span>
+											<span aria-label="input" class="inputs_errorMessage"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="SearchPanel_searchButton underfined" aria-label="search button"">
+								<button type role="button" aria-label="button" class="buttons__button buttons__search underfined buttons__fill underfined underfined underfined" data-di-id="di-id-e93c0f54-bd8b5d41">Search<button>
+							</div>
+						</div>
+						<!--::after-->
+					</div>
+				</div>
+				<div class="ClearSearch_clearSearch" aria-label="clear search">
+					<div class="contentWidth">
+						<!--::before-->
+						<a href="javascript:void(0)" target="_self" aria-label="" class="HighlightedLink__highlightedLink ClearSearch__clearSearchClass HighlightedLink__primaryCta" data-di-id="di-id-d61b9c40-df50e61c">
+							<span class="HighlightedLink__text">
+								<span>Clear search</span>
+							</span>
+						</a>
+						<!--::after-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>

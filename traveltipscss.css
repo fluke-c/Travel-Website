@@ -1,0 +1,94 @@
+*{padding: 0;
+margin: 0;}
+
+.header {height:100%;
+background-image:url("fiji beach.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+padding-top:20px;
+text-align:center;
+color:#fff;
+}
+
+.header img {width:155px;
+height:86px;
+float:left;
+margin:5px;
+top:5px;}
+
+.login {width:80px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:right;}
+.login{background-color: #FFFFFF /*white*/}
+.login:hover{background-color:#AFEEEE}
+
+
+.register {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:right;}
+.register{background-color: #FFFFFF /*white*/}
+.register:hover{background-color:#AFEEEE}
+
+.home {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.home{background-color: #FFFFFF /*white*/}
+.home:hover{background-color:#AFEEEE}
+
+.aboutus {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.aboutus{background-color: #FFFFFF /*white*/}
+.aboutus:hover{background-color:#AFEEEE}
+
+.services {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.services{background-color: #FFFFFF /*white*/}
+.services:hover{background-color:#AFEEEE}
+
+.gallery {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.gallery{background-color: #FFFFFF /*white*/}
+.gallery:hover{background-color:#AFEEEE}
+
+.traveltips {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.traveltips{background-color: #FFFFFF /*white*/}
+.traveltips:hover{background-color:#AFEEEE}
+
+.contact {width:100px;
+padding:5px 0;
+border-radius:0;
+color: black;
+float:middle;}
+.contact{background-color: #FFFFFF /*white*/}
+.contact:hover{background-color:#AFEEEE}
+
+
+.header h2{padding-top:75px;
+padding-bottom:0;
+font-size:55px;}
+
+.main img {width:336px;
+height:252px;
+float:center;
+margin:50px;
+top:100px;}
